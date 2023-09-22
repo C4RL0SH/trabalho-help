@@ -1,0 +1,52 @@
+object Form3: TForm3
+  Left = 358
+  Height = 308
+  Top = 130
+  Width = 521
+  Caption = 'Form3'
+  ClientHeight = 308
+  ClientWidth = 521
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 37
+    Top = 48
+    Width = 213
+    Caption = 'Insira seu Nome:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -27
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 248
+    Height = 45
+    Top = 48
+    Width = 232
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -27
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 184
+    Height = 63
+    Top = 168
+    Width = 129
+    Caption = 'confirmar'
+    Color = clYellow
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+end
